@@ -1,0 +1,36 @@
+{
+  "name": "FlowState - ADHD Focus Timer",
+  "short_name": "FlowState",
+  "description": "A calming, ADHD-friendly productivity timer that respects your flow state",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#4ECDC4",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "health", "utilities"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Start Focus Session",
+      "short_name": "Focus",
+      "description": "Start a new focus session",
+      "url": "/?action=start",
+      "icons": [{ "src": "/icon-512x512.png", "sizes": "192x192" }]
+    }
+  ]
+}
