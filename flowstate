@@ -1,0 +1,10 @@
+cd /home/z/my-project
+
+# Initialize git (if not already)
+git init
+git add .
+git commit -m "FlowState - ADHD Focus Timer"
+
+# Create repo on GitHub, then:
+git remote add origin https://github.com/b3joel/flowbywill/flowstate.git
+git push -u origin main
